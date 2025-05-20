@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+body{
+    display: flexbox; 
+    width: 1900px;
+}
+nav{
+    height:60px;
+}
+nav h1{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    color: gray;
+    font-size: 2em;
+}
+.cir{
+    position: relative;
+    top: 150px;
+    left: 850px;
+    height: 220px;
+    width: 220px;
+    border: transparent;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.home{
+    background-image: url(./img/cvbf-min.jpg);
+    height: 40vw;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+}
+.home h3{
+    font-size: 2em;
+    color: aliceblue;
+    position: absolute;
+    top: 510px;
+    left: 860px;
+    justify-items: center;
+} 
+.home h1{
+    position: absolute;
+    color: aliceblue;
+    font-size: 9em;
+    top: 560px;
+    left: 500px;
+}
+.home p{
+    color: aliceblue;
+    position: absolute;
+    top: 770px;
+    left: 900px;
+}
+.bios{
+    background-color: rgb(240, 240, 240);
+    padding-inline: 550px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.bios h1{
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 3em;
+}
+.bios p{
+    font-size: 1.5em;
+    color: grey;
+    line-height: 35px;
+}
+.bios button{
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline: 65px;
+    border: transparent;
+    background-color: rgb(121, 204, 148);
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+}
+.bios button:hover{
+    background-color: rgb(89, 151, 110);
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;    
+    padding-left: 440px;
+    padding-top: 50px;
+    padding-right: 380px;
+}
+.more{
+    margin: 10px;
+    padding-right:0;
+}
+.more h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.more p{
+    width: 430px;
+    color: grey;
+    line-height: 23px;
+    margin-bottom: 70px;
+}
+.help{
+    background-color: rgb(240, 240, 240);
+    margin-left: 50px;
+    height: 735px;
+}
+#cir2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(171, 211, 186);
+    margin-top: 90px;
+    margin-inline: 200px;
+    margin-bottom: 60px;
+}
+.help h1{
+    font-size: 3.6em;
+    margin-inline: 20px;
+    text-align: center;
+}
+.help p{
+    margin-top:50px;
+    text-align: center;
+    color: grey;
+    margin-inline: 100px;
+    margin-bottom: 70px;
+}
+.help button{
+    margin-inline: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline: 65px;
+    border: transparent;
+    background-color: rgb(121, 204, 148);
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+}
+.help button:hover{
+    background-color: rgb(89, 151, 110);
+    cursor: pointer;
+}
+.public{
+    background-color: rgb(110, 180, 142);
+    padding-inline: 350px;
+    margin-top: 50px;
+    height: 800px;
+}
+.public h1{
+    font-size: 3em;
+    padding-inline: 290px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.mainbox{
+    display: flex;
+    flex-flow: row wrap;
+}
+.box1 div{
+    height: 100px;
+    width: 490px;
+    background-color: aliceblue;
+    border: transparent;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    padding: 25px;
+}
+.box2 div{
+    height: 100px;
+    width: 490px;
+    background-color: aliceblue;
+    border: transparent;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    padding: 25px;
+}
+.mainbox p{
+    padding-left: 20px;
+    line-height: 25px;
+    font-size: 1.1em;
+    color: gray;
+}
+.lm{
+    padding-top: 60px;
+    padding-left: 520px;
+    padding-right: 460px;
+    padding-bottom: 50px;
+    display: flex;
+}
+#lmore{
+    margin-right: 30px;
+    height: 580px;
+    width: 450px;
+}
+#lmore h2{
+    padding-top: 40px;
+    padding-inline: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+#lmore p{
+    padding-inline: 20px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    font-size: 1.1em;
+}
+#lmore h4{
+    padding-inline: 20px;
+    padding-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+#lmore button{
+    margin-left: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-inline: 45px;
+    border: transparent;
+    background-color: rgb(121, 204, 148);
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+}
+#lmore button:hover{
+    background-color: rgb(89, 151, 110);
+    cursor: pointer;
+}
+#ft{
+    display: flex;
+}
+#ft span{  
+    height: 580px;
+    width: 390px;
+    background-image: url(./img/pexels-photo-4066276.jpeg);
+    background-size: 390px 580px ;
+}
+#ft h1{
+    background-color: rgb(70, 94, 70);
+    position: relative;
+    right:295px;
+    top:40px;
+    height: 150px;
+    width: 325px;
+    color: aliceblue;
+    font-size: 3.8em;
+    padding-inline: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    justif-content: center;
+    z-index: 2;
+}
+.ut{
+    display: flex;
+    height: 785px;
+    width: 1900px;
+    margin-bottom: 60px;
+    margin-right: 40px;
+    background-image: url(./img/nmmnmn-min.jpg);
+    background-size: 1330px 785px;
+    background-repeat: no-repeat;
+}
+#ut2{
+    position: relative;
+    top:140px;
+    height: 225px;
+    width: 250px;
+    background-color: rgb(241, 241, 241);
+    padding: 40px;
+    margin-left: 100px;
+}
+#ut2 h3{
+    text-align: center;
+    line-height: 25px;
+}
+#ut3{
+    position: relative;
+    top:160px;
+    right: -935px;
+    height: 465px;
+    width: 510px;
+    background-image: url(./img/pexels-photo-9789963.jpeg);
+    background-size: cover;
+}
+.mainf{
+    display: flex;
+    margin-left: 445px;
+    margin-right: 400px;
+    margin-bottom: 60px;
+}
+#mount{
+    margin-top: 130px;
+    margin-right: 90px;
+}
+#mount img{
+    height: 400px;
+    width: 340px;
+}
+#mount h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-inline: 10px;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+#mount a{
+    text-align: center;
+    padding-inline: 145px;
+    font-weight:900;
+    color: black;
+    font-size: 1.1em;
+    text-underline-offset: 5px;
+}
+#forest1{
+    background-color:rgb(242, 243, 245);
+    height: 570px;
+    width: 650px;
+}
+#forest1 h1{
+    font-size: 3em;
+    padding-top: 100px;
+    padding-inline: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#forest1 p{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+#forest a{
+    text-align: center;
+    padding-inline: 300px;
+    color: black;
+    font-weight:900;
+    font-size: 1.1em;
+    text-underline-offset: 5px;
+}
+#forest2{
+    display: flex;
+}
+#forest2 div{
+    width: 270px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+#forest2 h2{
+    margin-bottom: 20px;
+}
+#forest2 p{
+    line-height: 25px;
+    font-size: 1.1em;
+}
+#forest2 img{
+    margin-top: 30px;
+    width: 310px;
+    height: 270px;
+}
+.caring{
+    height: 880px;
+    width: 1900px;
+    background-image: url(./img/fgfg-min.jpg);
+    background-size: cover;
+    margin-bottom: 80px;
+    justify-items: center;
+}
+.caring h1{
+    font-size: 4em;
+    text-align: center;
+    padding-top: 250px;
+    padding-inline: 440px;
+    padding-bottom: 120px;
+    color: aliceblue;
+}
+#caring{
+    display: flex;
+    justify-content: center;
+}
+#caring div{
+    height: 200px;
+    width: 190px;
+    margin-inline: 25px;
+    justify-items: center;
+}
+#caring h3{
+    padding-bottom: 20px;
+    color: rgba(240, 248, 255, 0.815);
+    font-size: 1.5em;
+}
+#caring p{
+    text-align: center;
+    line-height: 25px;
+    font-size: 1.1em;
+    padding-bottom: 40px;
+    color: rgba(240, 248, 255, 0.808);
+}
+#caring button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-inline: 37px;
+    border: transparent;
+    background-color: rgb(121, 204, 148);
+    border-radius: 40px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+#caring button:hover{
+    background-color:aliceblue;
+    color: black;
+    cursor: pointer;
+}
+.caring h4{
+    position: relative;
+    top: 80px;
+    color: rgba(240, 248, 255, 0.808);
+}
+.most{
+    margin-inline: 400px;
+    margin-bottom: 40px;
+}
+#most1{
+    display: flex;
+    height: 420px;
+    margin-bottom: 30px;
+}
+#most1 img{
+    width: 630px;
+}
+#most1 div{
+    background-color: rgb(242, 243, 245);
+    width: 515px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+#most1 h2{
+    padding-inline: 60px;
+}
+#most1 p{
+    padding-inline: 55px;
+    padding-top: 60px ;
+    font-size: 1.3em;
+    line-height: 32px;
+}
+#most2{
+    display: flex;
+    height: 420px;
+}
+#most2 div{
+    height: 380px;
+    width: 365px;
+    margin-right: 30px;
+    border: 2px solid rgb(44, 180, 10);
+}
+#most2 h1{
+    padding-top: 100px;
+    padding-inline: 30px;
+    line-height: 0px;
+    font-size: 6em;
+    color: rgb(189, 189, 189);
+}
+#most2 h2{
+    padding-inline: 40px;
+    font-size: 1.8em;
+    line-height: 50px;
+    font-weight: 200;
+}
+#most2 img{
+    height: 380px;
+    width: 715px;
+}
+.last{
+
+    height: 715px;
+    background-image: url(./img/pexels-photo-4406619.jpeg);
+    background-size: cover;
+    justify-items: center;
+}
+.last div{
+    padding-top: 350px;
+    padding-inline: 650px;
+}
+.last h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.last p{
+    color: aliceblue;
+    margin-inline: 70px;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 30px;
+}
+.l1{
+    padding: 40px;
+    color: aliceblue;
+    justify-items: center;
+    background-color: rgb(68, 68, 68);
+    border: 1px solid rgb(88, 88, 88);
+}
+.l2{
+    padding: 40px;
+    color: aliceblue;
+    justify-items: center;
+    background-color: rgb(68, 68, 68);
+    border: 1px solid rgb(88, 88, 88);
+}
